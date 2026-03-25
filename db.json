@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "post_title": "post 1 title",
+      "post_body": "post 1 body"
+    },
+    {
+      "id": "2",
+      "post_title": "post 2 title",
+      "post_body": "post 2 body"
+    },
+    {
+      "id": "3",
+      "post_title": "post 3 title",
+      "post_body": "post 3 body"
+    },
+    {
+      "id": "4",
+      "post_title": "post 4 title",
+      "post_body": "post 4 body"
+    },
+    {
+      "id": "5",
+      "post_title": "post 5 title",
+      "post_body": "post 5 body"
+    },
+    {
+      "id": "016e",
+      "post_title": "test",
+      "post_body": "test"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
