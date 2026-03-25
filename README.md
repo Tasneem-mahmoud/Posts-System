@@ -36,8 +36,17 @@ an Alert will apear [ above posts table ] after any process either its "Adding" 
    when its clicked "pop up window wil be opened" and its exactlly "modal" , with posts data putted into form fileds [ post title , post Body ]. 
    How to know specific post ? using its "Id". 
    edit post then you have 2 options : 
-   1-
-   
+   1- 'submit' --> either post is added or updated.
+   2- 'cancel' --> to cancel operation.
+6- "deletePost" function : secound CRUD Operation "DELETE" , sending request with "DELETE"
+method.
+7-"addNewPost"function : third CRUD Operation "Add" , sending request with "POST" method.
+8- "updatePost" function : forth CRUD Operation "Edit" , sending request with "PUT" method.
+9- And we save the best for last , what happened when form is 'submitted' ? we should handle case seniaroies : 
+  1 - if its "adding" process --> "addNewPost" function is excuted and passing data to it as parameters {post title , post body }.
+  2- if its "editing" process --> "editPost" function is excuted and passing data to it as parametes {post id , post title , post body }.
+    then hideForm and fetch posts after either its "adding" or "editing" process .
+10 - "showAlert" function that is adding div element with class="alert" , changing its color depends on either its "Adding"  , "Editing" , "Deleting" , "Reading".
    
   
 
